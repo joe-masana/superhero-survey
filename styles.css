@@ -1,0 +1,79 @@
+body {
+    background-color: #DBE5DC;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+}
+
+div input {
+    display: inline;
+    margin: auto 0 auto 20px;
+}
+
+div label {
+    display: inline;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    padding: 0 20px 5px 0;
+}
+
+input {
+    padding: 0;
+}
+
+input[type=number] {
+    margin-left: 12px;
+}
+
+label {
+    color: #E56C00;
+    display: block;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+#description {
+    font-size: 1.3rem;
+}
+ 
+#number-label {
+    margin-right: 129px;
+}
+
+#submit {
+    display: block;
+    font-size: 1.1rem;
+    margin: 10px auto;
+}
+  
+#submit:hover {
+    color: #E56C00;
+}
+  
+.powers {
+    margin: 3px;
+}
+
+.super-rule {
+    border: 1px dashed grey;
+}
+
+.top {
+    margin: 2px 25px 0 0;
+}
