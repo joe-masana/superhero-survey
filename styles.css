@@ -29,6 +29,7 @@ hr {
 
 img {
     padding: 0 20px 5px 0;
+    object-fit: cover;
 }
 
 input {
