@@ -7,13 +7,24 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1 id="title">Survey Form</h1>
+    <h1 id="title">Superhero Survey</h1>
     <p id="description">Tell us who your favorite superheroes are!</p>
     <form id="survey-form" action="mailto:joe.masana@yahoo.com" method="post" enctype="text/plain" name="email_form">
-      <label id="name-label" class="top" for="name">Name: <input id="name" type="text" placeholder="Enter first name" name="name" required />
-      </label>
-      <label id="email-label" class="top" for="email">Email: <input id="email" type="email" placeholder="Enter email" name="email" required /></label>
-      <label id="number-label" class="top" for="number">Age: <input id="number" type="number" placeholder="Age" min="13" max="110" name="age" /></label>
+      <section class="top">
+        <div class="info">
+          <label id="name-label" for="name">Name: </label>
+          <input id="name" type="text" placeholder="e.g., John" name="name" required />
+        </div>
+        <div class="info">
+          <label id="email-label" for="email">Email: </label>
+          <input id="email" type="email" placeholder="Enter email" name="email" required />
+        </div>
+        <div class="info">
+          <label id="number-label" for="number">Age: </label>
+          <input id="number" type="number" placeholder="Age" min="13" max="110" name="age" />
+        </div>
+      </section>
+      
       <hr>
       <h2>I prefer super heroes from:</h2>
       <select id="dropdown" name="world">

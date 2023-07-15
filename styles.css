@@ -11,7 +11,7 @@ div input {
 }
 
 div label {
-    display: inline;
+    display: inline-block;
     padding: 0;
 }
 
@@ -45,16 +45,16 @@ label {
     display: block;
 }
 
+label input {
+    text-align: left;
+}
+
 textarea {
     margin-top: 10px;
 }
 
 #description {
     font-size: 1.3rem;
-}
- 
-#number-label {
-    margin-right: 129px;
 }
 
 #submit {
@@ -75,6 +75,18 @@ textarea {
     border: 1px dashed grey;
 }
 
+.info label {
+    text-align: right;
+    width: 10%;
+}
+
+.info input {
+    display: inline-block;
+    margin: 0 auto;
+    width: 10%;
+    text-align: left;
+}
+
 .top {
-    margin: 2px 25px 0 0;
+    margin: 0 auto;
 }
